@@ -1,4 +1,6 @@
 📱 Human Activity Recognition from Smartphone Sensors
+
+
 📌 Project Overview
 
 This project focuses on building a machine learning model to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data.
@@ -22,6 +24,7 @@ Accelerometer
 Gyroscope
 Activity → Target variable
 subject → Participant ID (removed during preprocessing)
+
 📌 Activity Classes:
 WALKING
 WALKING_UPSTAIRS
@@ -29,6 +32,7 @@ WALKING_DOWNSTAIRS
 SITTING
 STANDING
 LAYING
+
 🧠 Project Workflow
 🔹 Stage 1: Problem Definition & Literature Review
 Studied Human Activity Recognition
@@ -66,10 +70,10 @@ F1-score
 
 ✅ Best Model: Random Forest
 
-🔹 Stage 8: Model Interpretation & Explainability
+🔹 Model Interpretation & Explainability
 Feature importance analysis
 Confusion matrix
-🔹 Stage 9: Deployment
+🔹 Deployment
 Built using Streamlit
 Real-time activity prediction interface
 🔹 Stage 10: Documentation

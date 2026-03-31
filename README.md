@@ -1,31 +1,31 @@
-📱 Human Activity Recognition from Smartphone Sensors
+Human Activity Recognition from Smartphone Sensors
 
 
-📌 Project Overview
+Project Overview
 
 This project focuses on building a machine learning model to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data.
 
 The project follows the complete data science lifecycle, including preprocessing, analysis, model building, evaluation, and deployment.
 
-🎯 Objective
+Objective
 Classify human activities using sensor data
 Build accurate predictive models
 Deploy the model as an interactive application
-📊 Dataset
+Dataset
 Source: Kaggle
 Dataset Name: Human Activity Recognition Dataset
-🧾 Description:
+Description:
 
 The dataset contains sensor signals collected from smartphones placed on participants performing different activities.
 
-📌 Features:
+Features:
 561 engineered features from:
 Accelerometer
 Gyroscope
 Activity → Target variable
 subject → Participant ID (removed during preprocessing)
 
-📌 Activity Classes:
+Activity Classes:
 WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
@@ -33,7 +33,7 @@ SITTING
 STANDING
 LAYING
 
-🧠 Project Workflow
+Project Workflow
 🔹 Stage 1: Problem Definition & Literature Review
 Studied Human Activity Recognition
 Identified suitable ML models
@@ -68,7 +68,7 @@ Precision
 Recall
 F1-score
 
-✅ Best Model: Random Forest
+Best Model: Random Forest
 
 🔹 Model Interpretation & Explainability
 Feature importance analysis
@@ -80,14 +80,14 @@ Real-time activity prediction interface
 GitHub repository
 README
 PPT presentation
-🚀 Installation & Setup
+Installation & Setup
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
-▶️ Run the Project
+Run the Project
 1️⃣ Train Model
 python train_model.py
 2️⃣ Run App
 streamlit run app.py
-📁 Project Structure
+Project Structure
 HAR_Project/
 │
 ├── app.py
@@ -101,7 +101,7 @@ HAR_Project/
 ├── feature_columns.pkl
 ├── README.md
 └── requirements.txt
-📈 Results
+Results
 Achieved accuracy: ~90–96%
 Random Forest performed best
 Balanced dataset improved model reliability

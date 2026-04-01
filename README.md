@@ -62,14 +62,14 @@ Random Forest
 K-Nearest Neighbors
 🔹 Stage 7: Model Evaluation & Comparison
 
-Metrics:
+8.Metrics:
 
 Accuracy
 Precision
 Recall
 F1-score
 
-Best Model: Random Forest
+9.Best Model: Random Forest
 
 🔹 Model Interpretation & Explainability
 Feature importance analysis
@@ -102,7 +102,8 @@ HAR_Project/
 ├── feature_columns.pkl
 ├── README.md
 └── requirements.txt
-Results
+
+10.Results
 Achieved accuracy: ~90–96%
 Random Forest performed best
 Balanced dataset improved model reliability

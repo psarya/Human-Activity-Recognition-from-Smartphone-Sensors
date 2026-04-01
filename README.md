@@ -1,31 +1,32 @@
 Human Activity Recognition from Smartphone Sensors
 
 
-Project Overview
+1.Project Overview
 
 This project focuses on building a machine learning model to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data.
 
 The project follows the complete data science lifecycle, including preprocessing, analysis, model building, evaluation, and deployment.
 
-Objective
+2.Objective
 Classify human activities using sensor data
 Build accurate predictive models
 Deploy the model as an interactive application
-Dataset
+
+3.Dataset
 Source: Kaggle
 Dataset Name: Human Activity Recognition Dataset
 Description:
 
 The dataset contains sensor signals collected from smartphones placed on participants performing different activities.
 
-Features:
+4.Features:
 561 engineered features from:
 Accelerometer
 Gyroscope
 Activity → Target variable
 subject → Participant ID (removed during preprocessing)
 
-Activity Classes:
+5.Activity Classes:
 WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
@@ -33,7 +34,7 @@ SITTING
 STANDING
 LAYING
 
-Project Workflow
+6.Project Workflow
 🔹 Stage 1: Problem Definition & Literature Review
 Studied Human Activity Recognition
 Identified suitable ML models
@@ -53,7 +54,7 @@ Feature visualization
 Selected top 50 important features
 🔹 Stage 6: Model Building & Training
 
-Models used:
+7.Models used:
 
 Logistic Regression
 Decision Tree

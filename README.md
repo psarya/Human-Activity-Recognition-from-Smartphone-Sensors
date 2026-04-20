@@ -108,4 +108,4 @@ This project demonstrates the effectiveness of machine learning techniques in re
 | KNN | ~91% |
 
 ## 🌐 Live Deployment
-*(Streamlit deployment link - coming soon)*
+https://wheat-amiable-impotent.ngrok-free.dev

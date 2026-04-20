@@ -96,7 +96,7 @@ This project demonstrates the effectiveness of machine learning techniques in re
 
  Team Members
 - Ardra Selin A G (ardraselin22)
-- Arjun (arjuns-oss)
+- Arjun S (arjuns-oss)
 - Arya Suku (psarya)
 
  Model Results & Comparison
@@ -108,6 +108,6 @@ This project demonstrates the effectiveness of machine learning techniques in re
 | KNN | ~91% |
 
 ## 🌐 Live Deployment
- Dataset: [UCI HAR Dataset on Kaggle](https://www.kaggle.com)
+Dataset: [UCI HAR Dataset on Kaggle](https://www.kaggle.com)
 https://wheat-amiable-impotent.ngrok-free.dev
 Course: Predictive Analytics 2025-26

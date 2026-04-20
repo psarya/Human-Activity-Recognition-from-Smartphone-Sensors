@@ -79,13 +79,6 @@ HAR_Project/
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
 ```
 
-### Running the Project
-
-```bash
-python train_model.py
-streamlit run app.py
-```
-
 ## Train the Model
 ```bash
 python train_model.py

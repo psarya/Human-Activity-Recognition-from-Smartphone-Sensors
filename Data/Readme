@@ -11,5 +11,3 @@ This folder contains dataset files used in the project:
 
 Test csv : "https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=test.csv
 Train csv : https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=train.csv
-[Download Train CSV](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=train.csv)
-[Download Test CSV](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=test.csv)

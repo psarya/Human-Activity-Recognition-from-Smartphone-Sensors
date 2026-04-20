@@ -109,4 +109,5 @@ This project demonstrates the effectiveness of machine learning techniques in re
 
 ## 🌐 Live Deployment
 https://wheat-amiable-impotent.ngrok-free.dev
+
 Course: Predictive Analytics 2025-26

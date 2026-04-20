@@ -100,7 +100,6 @@ streamlit run app.py
 
 ## Conclusion
 This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data.
-
 The system achieves high accuracy and provides a practical solution through an interactive application.
 
 ## Team Members

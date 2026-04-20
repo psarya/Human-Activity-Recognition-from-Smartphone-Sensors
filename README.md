@@ -73,10 +73,18 @@ HAR_Project/
 ```
 ## Installation and Setup
 
-Install the required dependencies:
+### Install the required dependencies
 
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
-Running the Project
+```
+
+### ▶️ Running the Project
+
+```bash
+python train_model.py
+streamlit run app.py
+```
 
 ## Train the Model
 ```bash

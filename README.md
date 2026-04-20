@@ -4,34 +4,50 @@
 This project develops a machine learning system to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data. The work follows a complete data science pipeline, including preprocessing, analysis, model building, evaluation, and deployment.
 
 ## Objective
-Classify human activities using sensor data
-Build and compare multiple machine learning models
-Deploy the best performing model as an interactive application
-Dataset
-Source: Kaggle – Human Activity Recognition Dataset
-The dataset contains 561 engineered features derived from
-Accelerometer
-Gyroscope
-Target Classes
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
-Project Workflow
-Data Preprocessing
-Removed unnecessary columns such as subject
-Verified absence of missing values
-Encoded activity labels
-Standardized feature values
-Exploratory Data Analysis
-Analyzed class distribution
-Generated correlation heatmaps
-Visualized feature patterns
-Feature Engineering
-Selected the top 50 important features to reduce dimensionality
-Model Building
+
+- Classify human activities using smartphone sensor data  
+- Build and compare multiple machine learning models  
+- Deploy the best-performing model as an interactive application  
+
+---
+
+## Dataset
+
+**Source:** Kaggle – Human Activity Recognition Dataset  
+
+- Contains **561 engineered features** derived from:
+  - Accelerometer
+  - Gyroscope  
+
+**Target Classes:**
+- WALKING  
+- WALKING_UPSTAIRS  
+- WALKING_DOWNSTAIRS  
+- SITTING  
+- STANDING  
+- LAYING  
+
+---
+
+## Project Workflow
+
+### Data Preprocessing
+- Removed unnecessary columns (e.g., `subject`)  
+- Verified absence of missing values  
+- Encoded activity labels  
+- Standardized feature values  
+
+### Exploratory Data Analysis (EDA)
+- Analyzed class distribution  
+- Generated correlation heatmaps  
+- Visualized feature patterns  
+
+### Feature Engineering
+- Selected top 50 important features to reduce dimensionality  
+
+### Model Building
+- Trained multiple machine learning models  
+- Compared performance metrics  
 
 ## The following models were implemented and compared:
 

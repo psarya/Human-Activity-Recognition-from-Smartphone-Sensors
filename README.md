@@ -1,123 +1,81 @@
-# Human Activity Recognition from Smartphone Sensors
-## Project Summary
+ Human Activity Recognition System from Smartphone Sensor Data
 
-This project develops a machine learning system to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data. It follows a complete data science pipeline, including data preprocessing, exploratory analysis, model building, evaluation, and deployment.
+ Project Overview
+This project focuses on building a robust machine learning system to classify human activities using smartphone sensor data. The system leverages accelerometer and gyroscope signals to accurately recognize activities such as walking, sitting, standing, and lying.
 
-## Objective
+The project follows the complete data science lifecycle, including preprocessing, exploratory data analysis (EDA), feature engineering, model development, evaluation, and deployment.
 
+---
+
+ Objectives
 - Classify human activities using smartphone sensor data  
+- Perform comprehensive exploratory data analysis  
 - Build and compare multiple machine learning models  
-- Deploy the best-performing model as an interactive application  
+- Identify the best-performing model  
+- Deploy the model using an interactive Streamlit application  
 
-## Dataset
+---
 
-**Source:** Kaggle – Human Activity Recognition Dataset  
+ Dataset
+**Source:** UCI HAR Dataset (via Kaggle)
 
-- Contains **561 engineered features** derived from:
-  - Accelerometer
-  - Gyroscope  
+The dataset contains **561 engineered features** derived from:
+- Accelerometer signals  
+- Gyroscope signals  
 
-**Target Classes:**
+ Target Classes:
 - WALKING  
 - WALKING_UPSTAIRS  
 - WALKING_DOWNSTAIRS  
 - SITTING  
 - STANDING  
-- LAYING 
-## Project Workflow
+- LAYING  
 
-**Data Preprocessing**
-- Removed unnecessary columns (e.g., `subject`)  
-- Verified absence of missing values  
-- Encoded activity labels  
+---
+ Methodology
+
+### 🔹 1. Data Preprocessing
+- Removed irrelevant columns (e.g., subject identifiers)  
+- Checked and handled missing values  
+- Encoded categorical activity labels  
 - Standardized feature values  
 
-**Exploratory Data Analysis (EDA)**
-- Analyzed class distribution  
+---
+
+2. Exploratory Data Analysis (EDA)
+- Visualized activity distribution  
 - Generated correlation heatmaps  
-- Visualized feature patterns  
+- Identified feature relationships and patterns  
 
-**Feature Engineering**
-- Selected top 50 important features to reduce dimensionality  
+---
 
-**Model Building**
-- Trained multiple machine learning models  
-- Compared performance metrics  
+ 3. Feature Engineering
+- Selected top 50 important features using feature selection techniques  
+- Reduced dimensionality while preserving model performance  
 
-## The following models were implemented and compared:
+---
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- K-Nearest Neighbors
-- Results and Evaluation
+ 4. Model Building
+The following machine learning models were implemented:
 
-## Models were evaluated using:
+- Logistic Regression  
+- Decision Tree  
+- Random Forest  
+- K-Nearest Neighbors (KNN)  
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
+---
 
-The Random Forest model performed best with an accuracy of approximately 90–96 percent and provided balanced performance across all classes.
+ 5. Model Evaluation
+Models were evaluated using:
 
-## Deployment
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
 
-The final model is deployed using Streamlit, providing an interactive interface for real-time activity prediction.
+---
 
-## Project Structure
-
-| File | Description |
-|------|------------|
-| app.py | Streamlit application |
-| train_model.py | Model training script |
-| train.csv | Training dataset |
-| test.csv | Testing dataset |
-| har_model.pkl | Trained model |
-| scaler.pkl | Data scaler |
-| selector.pkl | Feature selector |
-| label_encoder.pkl | Label encoder |
-| feature_columns.pkl | Feature list |
-| README.md | Project documentation |
-| requirements.txt | Dependencies |
-## Installation and Setup
-
-**Install the required dependencies**
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
-```
-
-## Train the Model
-```bash
-python train_model.py
-```
-
-## Run the Application
-```bash
-streamlit run app.py
-```
-
-## Challenges
-- High dimensionality of data
-- Complexity in feature selection
-- Similar patterns between different activities
-
-## Future Work
-- Implementation of deep learning models such as LSTM and CNN
-- Real-time mobile deployment
-- Integration of larger datasets
-
-## Conclusion
-This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data.
-The system achieves high accuracy and provides a practical solution through an interactive application.
-
-## Team Members
-- Ardra Selin A G (`ardraselin22`)
-- Arjun S (`arjuns-oss`)
-- Arya Suku (`psarya`)
-
-## Model Results & Comparison
+ Results & Comparison
 
 | Model                | Accuracy |
 |---------------------|----------|
@@ -126,8 +84,29 @@ The system achieves high accuracy and provides a practical solution through an i
 | Random Forest       | ~96%     |
 | KNN                 | ~91%     |
 
-## Live Deployment
+✅ **Best Model:** Random Forest  
+✔ Achieved highest accuracy and balanced performance across all classes  
 
-🔗 https://wheat-amiable-impotent.ngrok-free.dev
+---
 
-**Course:** Predictive Analytics 2025–26
+## 🧠 Model Interpretation
+- Feature importance analysis performed using Random Forest  
+- Observed strong contribution from time and frequency domain features  
+- Misclassifications mainly occur between similar activities (e.g., sitting vs standing)  
+
+---
+
+## 🌐 Deployment
+The best-performing model is deployed using Streamlit.
+
+### 🔗 Live Application:
+https://wheat-amiable-impotent.ngrok-free.dev
+
+### Features:
+- User input for sensor values  
+- Real-time activity prediction  
+- Simple and interactive UI  
+
+---
+
+## 📁 Project Structure

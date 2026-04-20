@@ -108,4 +108,6 @@ This project demonstrates the effectiveness of machine learning techniques in re
 | KNN | ~91% |
 
 ## 🌐 Live Deployment
+ Dataset: [UCI HAR Dataset on Kaggle](https://www.kaggle.com)
 https://wheat-amiable-impotent.ngrok-free.dev
+Course: Predictive Analytics 2025-26

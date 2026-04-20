@@ -117,7 +117,8 @@ The system achieves high accuracy and provides a practical solution through an i
 | Random Forest       | ~96%     |
 | KNN                 | ~91%     |
 
-## 🌐 Live Deployment
-https://wheat-amiable-impotent.ngrok-free.dev
+## Live Deployment
 
-Course: Predictive Analytics 2025-26
+🔗 https://wheat-amiable-impotent.ngrok-free.dev
+
+**Course:** Predictive Analytics 2025–26

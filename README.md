@@ -56,21 +56,19 @@ The final model is deployed using Streamlit, providing an interactive interface 
 
 ## Project Structure
 
-```
-HAR_Project/
-│
-├── app.py
-├── train_model.py
-├── train.csv
-├── test.csv
-├── har_model.pkl
-├── scaler.pkl
-├── selector.pkl
-├── label_encoder.pkl
-├── feature_columns.pkl
-├── README.md
-└── requirements.txt
-```
+| File | Description |
+|------|------------|
+| app.py | Streamlit application |
+| train_model.py | Model training script |
+| train.csv | Training dataset |
+| test.csv | Testing dataset |
+| har_model.pkl | Trained model |
+| scaler.pkl | Data scaler |
+| selector.pkl | Feature selector |
+| label_encoder.pkl | Label encoder |
+| feature_columns.pkl | Feature list |
+| README.md | Project documentation |
+| requirements.txt | Dependencies |
 ## Installation and Setup
 
 ### Install the required dependencies

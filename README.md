@@ -33,13 +33,13 @@ Feature Engineering
 Selected the top 50 important features to reduce dimensionality
 Model Building
 
-The following models were implemented and compared:
+## The following models were implemented and compared:
 
-Logistic Regression
-Decision Tree
-Random Forest
-K-Nearest Neighbors
-Results and Evaluation
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors
+- Results and Evaluation
 
 Models were evaluated using:
 

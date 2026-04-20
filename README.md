@@ -93,3 +93,19 @@ Integration of larger datasets
 Conclusion
 
 This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data. The system achieves high accuracy and provides a practical solution through an interactive application.
+
+ Team Members
+- Ardra Selin A G (ardraselin22)
+- Arjun (arjuns-oss)
+- Arya Suku (psarya)
+
+ Model Results & Comparison
+
+| Model | Accuracy |
+| Logistic Regression | ~90% |
+| Decision Tree | ~87% |
+| Random Forest | ~96% |
+| KNN | ~91% |
+
+## 🌐 Live Deployment
+*(Streamlit deployment link - coming soon)*

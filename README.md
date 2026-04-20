@@ -78,29 +78,35 @@ Install the required dependencies:
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
 Running the Project
 
-## Train the model:
-
+## Train the Model
+```bash
 python train_model.py
+```
 
-Run the application:
-
+## Run the Application
+```bash
 streamlit run app.py
-Challenges
-High dimensionality of data
-Complexity in feature selection
-Similar patterns between different activities
-Future Work
-Implementation of deep learning models such as LSTM and CNN
-Real-time mobile deployment
-Integration of larger datasets
-Conclusion
+```
 
-This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data. The system achieves high accuracy and provides a practical solution through an interactive application.
+## Challenges
+- High dimensionality of data
+- Complexity in feature selection
+- Similar patterns between different activities
 
- Team Members
-- Ardra Selin A G (ardraselin22)
-- Arjun S (arjuns-oss)
-- Arya Suku (psarya)
+## Future Work
+- Implementation of deep learning models such as LSTM and CNN
+- Real-time mobile deployment
+- Integration of larger datasets
+
+## Conclusion
+This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data.
+
+The system achieves high accuracy and provides a practical solution through an interactive application.
+
+## Team Members
+- Ardra Selin A G (`ardraselin22`)
+- Arjun S (`arjuns-oss`)
+- Arya Suku (`psarya`)
 
 ## Model Results & Comparison
 

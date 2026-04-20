@@ -14,5 +14,5 @@
 
 ### Commit Message Format
 - Added README,upadted the ipynb files etc
--  Updated the same
+- Updated the same
 - Fixed the code

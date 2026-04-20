@@ -1,93 +1,59 @@
 Human Activity Recognition from Smartphone Sensors
+Project Summary
 
+This project develops a machine learning system to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data. The work follows a complete data science pipeline, including preprocessing, analysis, model building, evaluation, and deployment.
 
-1.Project Overview
-
-This project focuses on building a machine learning model to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data.
-
-The project follows the complete data science lifecycle, including preprocessing, analysis, model building, evaluation, and deployment.
-
-2.Objective
+Objective
 Classify human activities using sensor data
-Build accurate predictive models
-Deploy the model as an interactive application
-
-3.Dataset
-Source: Kaggle
-Dataset Name: Human Activity Recognition Dataset
-Description:
-
-The dataset contains sensor signals collected from smartphones placed on participants performing different activities.
-
-4.Features:
-561 engineered features from:
+Build and compare multiple machine learning models
+Deploy the best performing model as an interactive application
+Dataset
+Source: Kaggle – Human Activity Recognition Dataset
+The dataset contains 561 engineered features derived from:
 Accelerometer
 Gyroscope
-Activity → Target variable
-subject → Participant ID (removed during preprocessing)
-
-5.Activity Classes:
+Target Classes
 WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
 SITTING
 STANDING
 LAYING
+Project Workflow
+Data Preprocessing
+Removed unnecessary columns such as subject
+Verified absence of missing values
+Encoded activity labels
+Standardized feature values
+Exploratory Data Analysis
+Analyzed class distribution
+Generated correlation heatmaps
+Visualized feature patterns
+Feature Engineering
+Selected the top 50 important features to reduce dimensionality
+Model Building
 
-6.Project Workflow
-🔹 Stage 1: Problem Definition & Literature Review
-Studied Human Activity Recognition
-Identified suitable ML models
-🔹 Stage 2: Data Collection & Understanding
-Loaded dataset from Kaggle
-Explored structure and class distribution
-🔹 Stage 3: Data Preprocessing & Cleaning
-Removed subject column
-Checked missing values (none found)
-Encoded labels
-Standardized features
-🔹 Stage 4: Exploratory Data Analysis (EDA)
-Activity distribution plots
-Correlation heatmaps
-Feature visualization
-🔹 Stage 5: Feature Engineering & Selection
-Selected top 50 important features
-🔹 Stage 6: Model Building & Training
-
-7.Models used:
+The following models were implemented and compared:
 
 Logistic Regression
 Decision Tree
 Random Forest
 K-Nearest Neighbors
-🔹 Stage 7: Model Evaluation & Comparison
+Results and Evaluation
 
-8.Metrics:
+Models were evaluated using:
 
 Accuracy
 Precision
 Recall
 F1-score
 
-9.Best Model: Random Forest
+The Random Forest model performed best with an accuracy of approximately 90–96 percent and provided balanced performance across all classes.
 
-🔹 Model Interpretation & Explainability
-Feature importance analysis
-Confusion matrix
-🔹 Deployment
-Built using Streamlit
-Real-time activity prediction interface
-🔹 Stage 10: Documentation
-GitHub repository
-README
-PPT presentation
-Installation & Setup
-pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
-Run the Project
-1️⃣ Train Model
-python train_model.py
-2️⃣ Run App
-streamlit run app.py
+Deployment
+
+The final model is deployed using Streamlit, providing an interactive interface for real-time activity prediction.
+
 Project Structure
 HAR_Project/
 │
@@ -102,16 +68,44 @@ HAR_Project/
 ├── feature_columns.pkl
 ├── README.md
 └── requirements.txt
+Installation and Setup
 
-10.Results
-Achieved accuracy: ~90–96%
-Random Forest performed best
-Balanced dataset improved model reliability
-⚠️ Challenges
-High dimensional data
-Feature selection complexity
-Similar activity patterns
-🔮 Future Scope
-Deep learning (LSTM, CNN)
+Install the required dependencies:
+
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
+Running the Project
+
+Train the model:
+
+python train_model.py
+
+Run the application:
+
+streamlit run app.py
+Challenges
+High dimensionality of data
+Complexity in feature selection
+Similar patterns between different activities
+Future Work
+Implementation of deep learning models such as LSTM and CNN
 Real-time mobile deployment
-Larger dataset integration
+Integration of larger datasets
+Conclusion
+
+This project demonstrates the effectiveness of machine learning techniques in recognizing human activities using smartphone sensor data. The system achieves high accuracy and provides a practical solution through an interactive application.
+
+ Team Members
+- Ardra Selin A G (ardraselin22)
+- Arjun (arjuns-oss)
+- Arya Suku (psarya)
+
+ Model Results & Comparison
+
+| Model | Accuracy |
+| Logistic Regression | ~90% |
+| Decision Tree | ~87% |
+| Random Forest | ~96% |
+| KNN | ~91% |
+
+## 🌐 Live Deployment
+*(Streamlit deployment link - coming soon)*

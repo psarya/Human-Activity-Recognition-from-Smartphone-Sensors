@@ -23,8 +23,7 @@ This project develops a machine learning system to recognize human activities su
 - WALKING_DOWNSTAIRS  
 - SITTING  
 - STANDING  
-- LAYING
-- 
+- LAYING 
 ## Project Workflow
 
 **Data Preprocessing**

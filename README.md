@@ -27,21 +27,21 @@ This project develops a machine learning system to recognize human activities su
 - 
 ## Project Workflow
 
-### Data Preprocessing
+**Data Preprocessing**
 - Removed unnecessary columns (e.g., `subject`)  
 - Verified absence of missing values  
 - Encoded activity labels  
 - Standardized feature values  
 
-### Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 - Analyzed class distribution  
 - Generated correlation heatmaps  
 - Visualized feature patterns  
 
-### Feature Engineering
+**Feature Engineering**
 - Selected top 50 important features to reduce dimensionality  
 
-### Model Building
+**Model Building**
 - Trained multiple machine learning models  
 - Compared performance metrics  
 
@@ -83,7 +83,7 @@ The final model is deployed using Streamlit, providing an interactive interface 
 | requirements.txt | Dependencies |
 ## Installation and Setup
 
-### Install the required dependencies
+**Install the required dependencies**
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib

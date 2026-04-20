@@ -99,13 +99,14 @@ This project demonstrates the effectiveness of machine learning techniques in re
 - Arjun S (arjuns-oss)
 - Arya Suku (psarya)
 
- Model Results & Comparison
+## Model Results & Comparison
 
-| Model | Accuracy |
-| Logistic Regression | ~90% |
-| Decision Tree | ~87% |
-| Random Forest | ~96% |
-| KNN | ~91% |
+| Model                | Accuracy |
+|---------------------|----------|
+| Logistic Regression | ~90%     |
+| Decision Tree       | ~87%     |
+| Random Forest       | ~96%     |
+| KNN                 | ~91%     |
 
 ## 🌐 Live Deployment
 https://wheat-amiable-impotent.ngrok-free.dev

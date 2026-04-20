@@ -41,20 +41,22 @@ Model Building
 - K-Nearest Neighbors
 - Results and Evaluation
 
-Models were evaluated using:
+## Models were evaluated using:
 
-Accuracy
-Precision
-Recall
-F1-score
+- Accuracy
+- Precision
+- Recall
+- F1-score
 
 The Random Forest model performed best with an accuracy of approximately 90–96 percent and provided balanced performance across all classes.
 
-Deployment
+## Deployment
 
 The final model is deployed using Streamlit, providing an interactive interface for real-time activity prediction.
 
-Project Structure
+## Project Structure
+
+```
 HAR_Project/
 │
 ├── app.py
@@ -68,6 +70,7 @@ HAR_Project/
 ├── feature_columns.pkl
 ├── README.md
 └── requirements.txt
+```
 Installation and Setup
 
 Install the required dependencies:

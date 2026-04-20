@@ -1,9 +1,9 @@
-## Human Activity Recognition from Smartphone Sensors
-# Project Summary
+# Human Activity Recognition from Smartphone Sensors
+## Project Summary
 
 This project develops a machine learning system to recognize human activities such as walking, sitting, standing, and lying using smartphone sensor data. The work follows a complete data science pipeline, including preprocessing, analysis, model building, evaluation, and deployment.
 
-# Objective
+## Objective
 Classify human activities using sensor data
 Build and compare multiple machine learning models
 Deploy the best performing model as an interactive application

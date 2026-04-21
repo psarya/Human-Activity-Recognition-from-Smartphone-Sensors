@@ -1,6 +1,6 @@
- Human Activity Recognition System from Smartphone Sensor Data
+Human Activity Recognition System from Smartphone Sensor Data
 
- Project Overview
+Project Overview
 This project focuses on building a robust machine learning system to classify human activities using smartphone sensor data. The system leverages accelerometer and gyroscope signals to accurately recognize activities such as walking, sitting, standing, and lying.
 
 The project follows the complete data science lifecycle, including preprocessing, exploratory data analysis (EDA), feature engineering, model development, evaluation, and deployment.
@@ -34,7 +34,7 @@ The dataset contains **561 engineered features** derived from:
 ---
  Methodology
 
-### 🔹 1. Data Preprocessing
+1. Data Preprocessing
 - Removed irrelevant columns (e.g., subject identifiers)  
 - Checked and handled missing values  
 - Encoded categorical activity labels  
@@ -56,7 +56,7 @@ The dataset contains **561 engineered features** derived from:
 ---
 
  4. Model Building
-The following machine learning models were implemented:
+ The following machine learning models were implemented:
 
 - Logistic Regression  
 - Decision Tree  
@@ -66,7 +66,7 @@ The following machine learning models were implemented:
 ---
 
  5. Model Evaluation
-Models were evaluated using:
+ Models were evaluated using:
 
 - Accuracy  
 - Precision  

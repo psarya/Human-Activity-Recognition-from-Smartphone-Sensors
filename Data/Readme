@@ -3,5 +3,5 @@ This folder contains dataset files used in the project:
 - Features: 561 sensor-based features
 - Classes: 6 activity labels
 - Participants: 30 volunteers
-Test csv : https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=test.csv
-Train csv : https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=train.csv
+-Test csv : https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=test.csv
+-Train csv : https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones?select=train.csv

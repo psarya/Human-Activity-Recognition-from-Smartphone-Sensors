@@ -84,19 +84,19 @@ The dataset contains **561 engineered features** derived from:
 | Random Forest       | ~96%     |
 | KNN                 | ~91%     |
 
-✅ **Best Model:** Random Forest  
+**Best Model:** Random Forest  
 ✔ Achieved highest accuracy and balanced performance across all classes  
 
 ---
 
-## 🧠 Model Interpretation
+## Model Interpretation
 - Feature importance analysis performed using Random Forest  
 - Observed strong contribution from time and frequency domain features  
 - Misclassifications mainly occur between similar activities (e.g., sitting vs standing)  
 
 ---
 
-## 🌐 Deployment
+## Deployment
 The best-performing model is deployed using Streamlit.
 
 ### 🔗 Live Application:
@@ -109,4 +109,4 @@ https://wheat-amiable-impotent.ngrok-free.dev
 
 ---
 
-## 📁 Project Structure
+## Project Structure

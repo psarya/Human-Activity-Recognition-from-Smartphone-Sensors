@@ -6,7 +6,7 @@
 - Arya Suku (psarya)
 
 ### How We Work
-1. Create a branch for each task
+1. Assigning tasks each others
 2. Make meaningful commits
 3. Open a Pull Request
 4. Get teammate review

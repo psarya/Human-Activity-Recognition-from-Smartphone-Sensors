@@ -88,9 +88,9 @@ The dataset contains **561 engineered features** derived from:
 ---
 
 ## Model Interpretation
-- Feature importance analysis performed using Random Forest  
-- Observed strong contribution from time and frequency domain features  
-- Misclassifications mainly occur between similar activities (e.g., sitting vs standing)  
+- 
+-  
+-  
 
 ---
 

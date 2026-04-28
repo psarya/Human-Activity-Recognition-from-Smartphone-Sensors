@@ -57,10 +57,9 @@ The dataset contains **561 engineered features** derived from:
 **4. Model Building**
  The following machine learning models were implemented:
 
-- Logistic Regression  
-- Decision Tree  
-- Random Forest  
-- K-Nearest Neighbors (KNN)  
+- SVM 
+- LSTM 
+- Random Forest    
 
 ---
 
@@ -76,14 +75,14 @@ The dataset contains **561 engineered features** derived from:
 
 ## Results & Comparison
 
-| Model                | Accuracy |
+| Model               | Accuracy |
 |---------------------|----------|
-| Logistic Regression | ~90%     |
-| Decision Tree       | ~87%     |
-| Random Forest       | ~96%     |
-| KNN                 | ~91%     |
+| SVM                 | 0.90     |
+| LSTM                | 0.85     |
+| Random Forest       | 0.96     |
 
-**Best Model:** Random Forest  
+
+**Best Model:** 
 ✔ Achieved highest accuracy and balanced performance across all classes  
 
 ---
@@ -99,7 +98,7 @@ The dataset contains **561 engineered features** derived from:
 The best-performing model is deployed using Streamlit.
 
 ### 🔗 Live Application:
-https://wheat-amiable-impotent.ngrok-free.dev
+
 
 ### Features:
 - User input for sensor values  
@@ -108,4 +107,4 @@ https://wheat-amiable-impotent.ngrok-free.dev
 
 ---
 
-## Project Structure
+

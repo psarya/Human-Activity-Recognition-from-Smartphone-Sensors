@@ -1,7 +1,10 @@
-streamlit
-numpy
 pandas
-scikit-learn
+numpy
 matplotlib
 seaborn
+scikit-learn
+tensorflow
+keras
+streamlit
 joblib
+pyngrok

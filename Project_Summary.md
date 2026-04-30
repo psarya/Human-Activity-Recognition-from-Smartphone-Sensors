@@ -1,6 +1,1 @@
-This project implements a machine learning system for human activity recognition using smartphone sensor data.
-
-Key Highlights:
-- Multiple ML models implemented
-- Random Forest achieved best performance
-- System deployed using Streamlit
+This project successfully developed a Human Activity Recognition (HAR) system using smartphone sensor data. It involved comprehensive data preprocessing, exploratory data analysis, and feature engineering to prepare the UCI HAR Dataset. Three machine learning models (SVM, Random Forest, and LSTM) were trained and evaluated, with the LSTM model achieving the highest accuracy of 95.15%. The project culminates in an interactive Streamlit application that allows users to predict activities from sensor data and visualize model performance.

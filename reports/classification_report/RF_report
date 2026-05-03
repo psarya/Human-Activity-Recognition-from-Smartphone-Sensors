@@ -16,6 +16,7 @@ Classification report:
 
 Confusion Matrix
 
+
 | Actual \ Predicted | 0   | 1   | 2   | 3   | 4   | 5   |
 |--------------------|-----|-----|-----|-----|-----|-----|
 | 0                  | 537 | 0   | 0   | 0   | 0   | 0   |

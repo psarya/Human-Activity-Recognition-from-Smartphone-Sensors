@@ -1,10 +1,18 @@
-# Human Activity Recognition System from Smartphone Sensor Data
+# Project Title:- Human Activity Recognition System from Smartphone Sensor Data
 
-# Team Members:-
+## Team Members:-
++-------------------+--------+-------------------+
+| Name              | Course | Register Number   |
++-------------------+--------+-------------------+
+| Ardra Selin AG    | CSDA   | 253006            |
+| Arjun S           | DACS   |                   |
+| Arya Suku         | CSDA   | 253007            |
++-------------------+--------+-------------------+
 
 
-## Project Overview
-This project focuses on building a robust machine learning system to classify human activities using smartphone sensor data. The system leverages accelerometer and gyroscope signals to accurately recognize activities such as walking, sitting, standing, and lying.
+## Problem Statement
+Human Activity Recognition (HAR) using smartphone sensor data is an essential predictive analytics task which provides benefits to healthcare and fitness tracking and smart environments. The sensors inside modern smartphones which include accelerometers and gyroscopes create continuous motion data through their measurement functions. This process of converting raw sensor data into accurate activity classifications presents on-going difficulties for researchers in the field.
+The objective of this project is to develop a robust system that can accurately classify human physical activities—such as walking, sitting, standing, running, and stair climbing-using sensor data from smartphones. The project requires researchers to extract time-domain and frequency-domain features from the dataset and use Support Vector Machines (SVM), Random Forest and Long Short-Term Memory (LSTM) networks as machine learning models.
 
 The project follows the complete data science lifecycle, including:
 - Data preprocessing  
@@ -28,6 +36,9 @@ The project follows the complete data science lifecycle, including:
 ## Dataset
 - **Source:** UCI HAR Dataset (via Kaggle)  
 - The dataset contains **561 engineered features** derived from:
+
+## Dataset Link:- 
+- https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones
 
 ### Feature Sources
 - Accelerometer signals  
@@ -86,16 +97,19 @@ Models were evaluated using:
 
 ## Results & Comparison
 
-| Model           | Accuracy |
++----------------+-------- +
+| Model          | Accuracy|
 |----------------|---------|
 | SVM            | 0.9006  |
 | Random Forest  | 0.8595  |
 | LSTM           | 0.9515  |
++----------------+-------- +
 
 ### Best Model
 **LSTM** achieved the highest accuracy (**95.15%**) and showed balanced performance across all activity classes.
 
 ---
+## Evaluation Matrix
 
 ## Model Interpretation
 - Activity distribution was visualized to understand class balance  
@@ -106,10 +120,10 @@ Models were evaluated using:
 ---
 
 ## Deployment
-The best-performing model is deployed using **Streamlit**.
+- The best-performing model is deployed using **Streamlit**.
 
 ### Live Application
-https://wheat-amiable-impotent.ngrok-free.dev
+- https://wheat-amiable-impotent.ngrok-free.dev
 
 ### Features
 - Upload sensor data via CSV or use manual input sliders  

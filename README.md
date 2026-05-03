@@ -157,9 +157,6 @@ This project successfully developed and deployed a Human Activity Recognition sy
 
 ---
 
-### File Upload & predictions
-
----
 ## Deployment
 - The best-performing model is deployed using **Streamlit**.
 

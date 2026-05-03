@@ -1,9 +1,12 @@
 # Project Title: Human Activity Recognition System from Smartphone Sensor Data
 
-## Team Members:- Name | Reg No 
-                  Arya 
-                  Arjun
-                  ardra 
+## Team Members:
+| Name  | Reg No |
+| ----- | ------ |
+| Arya  | —      |
+| Arjun | —      |
+| Ardra | —      |
+
                   
 
 ## Problem Statement

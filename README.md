@@ -109,6 +109,8 @@ Models were evaluated using:
 ## Model Comparison
 <img width="743" height="434" alt="Model Comparison" src="https://github.com/user-attachments/assets/5bf9d1cf-18ff-48fb-9cbc-3eedd1ac63ec" />
 
+## Accuracy Comparison
+<img width="687" height="465" alt="Model Accuracy Comaprison" src="https://github.com/user-attachments/assets/235a13ba-b191-4dcd-9d3f-638070c70934" />
 
 ## Model Interpretation
 - Activity distribution was visualized to understand class balance  

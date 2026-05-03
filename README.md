@@ -141,7 +141,19 @@ This project successfully developed and deployed a Human Activity Recognition sy
 
 ## Application Screenshots
 ### Home Interface
-<img width="1532" height="975" alt="Home INterface" src="https://github.com/user-attachments/assets/47066588-e000-4fe2-89b7-51b5f7688fda" />
+<img width="1892" height="599" alt="Screenshot 2026-05-03 225913" src="https://github.com/user-attachments/assets/82d547a6-b25b-45cb-babd-8a9ad16a7610" />
+
+### File Upload & Predictions
+<img width="1879" height="965" alt="File upload   Prediction" src="https://github.com/user-attachments/assets/0ef2569e-b98a-4a9f-b20a-40e497ef14cb" />
+
+### Manual Feature Input
+<img width="1890" height="971" alt="Screenshot 2026-05-03 225135" src="https://github.com/user-attachments/assets/91969b16-1936-4c4d-b879-993900efad6e" />
+
+### Model Performance & explainability
+<img width="1882" height="929" alt="Screenshot 2026-05-03 225817" src="https://github.com/user-attachments/assets/93279b3a-79d8-4935-8767-6108248dea1d" />
+
+### About
+<img width="1889" height="884" alt="Screenshot 2026-05-03 225842" src="https://github.com/user-attachments/assets/ef0f5cf4-9261-4b64-b2ac-e6356bd7659c" />
 
 ---
 

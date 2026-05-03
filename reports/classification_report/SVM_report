@@ -1,4 +1,5 @@
-SVM Accuracy: 0.9006
+SVM Classification report:
+
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00       537

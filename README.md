@@ -1,4 +1,4 @@
-# Project Title Human Activity Recognition System from Smartphone Sensor Data
+# Project Title: Human Activity Recognition System from Smartphone Sensor Data
 
 ## Team Members:-
 

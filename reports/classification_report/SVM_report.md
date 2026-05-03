@@ -1,5 +1,5 @@
-Super Vector Computer
-Classification report:
+## SVM
+### Classification report:
 
 | Class / Metric   | Precision | Recall | F1-Score | Support |
 | ---------------- | --------- | ------ | -------- | ------- |

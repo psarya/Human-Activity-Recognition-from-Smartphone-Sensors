@@ -16,5 +16,4 @@
 
 ### Confusion Matrix
 
-![Confusion Matrix](../../results/confusion_matrix_rf.png)
 

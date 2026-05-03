@@ -14,7 +14,7 @@ Deploy the model using an interactive Streamlit application
 Dataset
 Source: UCI HAR Dataset (via Kaggle)
 
-## The dataset contains 561 engineered features derived from:
+The dataset contains 561 engineered features derived from:
 
 Accelerometer signals
 Gyroscope signals

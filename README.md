@@ -3,7 +3,7 @@
 ## Team Members:
 | Name  | Reg No |
 | ----- | ------ |
-| Arya  | —      |
+| Arya Suku | —      |
 | Arjun | —      |
 | Ardra | —      |
 

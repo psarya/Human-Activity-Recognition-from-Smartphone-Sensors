@@ -135,14 +135,17 @@ Models were evaluated using:
 
 ---
 
-## Model Interpretation
-- Activity distribution was visualized to understand class balance  
-- Correlation heatmaps revealed relationships between sensor features  
-- Confusion matrices helped identify misclassifications between similar activities  
-- Random Forest feature importance highlighted key contributing features  
+## Conclusion
+This project successfully developed and deployed a Human Activity Recognition system capable of classifying six common activities from smartphone sensor data. By leveraging a combination of traditional machine learning models (SVM, Random Forest) and deep learning (LSTM), we achieved high accuracy, with the LSTM model demonstrating superior performance. The deployment of an interactive Streamlit application further enhances the utility and accessibility of the model, providing real-time predictions and interpretability. This project serves as a comprehensive example of a complete machine learning pipeline, from data analysis and model development to deployment and evaluation.
 
 ---
 
+## Application Screenshots
+### Home Interface
+<img width="1897" height="975" alt="Home INterface" src="https://github.com/user-attachments/assets/3ba73f5d-3a92-4dfa-89a2-49ea37fb709d" />
+
+
+---
 ## Deployment
 - The best-performing model is deployed using **Streamlit**.
 

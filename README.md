@@ -1,5 +1,8 @@
 # Human Activity Recognition System from Smartphone Sensor Data
 
+# Team Members:-
+
+
 ## Project Overview
 This project focuses on building a robust machine learning system to classify human activities using smartphone sensor data. The system leverages accelerometer and gyroscope signals to accurately recognize activities such as walking, sitting, standing, and lying.
 

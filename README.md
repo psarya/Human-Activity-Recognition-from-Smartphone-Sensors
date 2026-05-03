@@ -2,10 +2,6 @@
 # Human Activity Recognition System from Smartphone Sensor Data
 
 ## Team Members:-
-| Name           |	Course |	Register Number |
-| Ardra Selin AG |	CSDA   | 	253006          |
-| Arjun S        |	DACS   |	—               |
-| Arya Suku      |	CSDA	 |  253007          |
 
 
 ## Problem Statement
@@ -109,18 +105,6 @@ Models were evaluated using:
 ### Random Forest 
 #### Classification Report
 
- precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00       537
-           1       0.76      0.72      0.74       491
-           2       0.75      0.79      0.77       532
-           3       0.73      0.94      0.82       496
-           4       0.93      0.81      0.86       420
-           5       0.88      0.71      0.79       471
-
-    accuracy                           0.83      2947
-   macro avg       0.84      0.83      0.83      2947
-weighted avg       0.84      0.83      0.83      2947
 
 ## Model Interpretation
 - Activity distribution was visualized to understand class balance  

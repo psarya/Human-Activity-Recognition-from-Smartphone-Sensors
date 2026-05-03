@@ -106,6 +106,10 @@ Models were evaluated using:
 #### Classification Report
 
 
+## Model Comparison
+<img width="743" height="434" alt="Model Comparison" src="https://github.com/user-attachments/assets/5bf9d1cf-18ff-48fb-9cbc-3eedd1ac63ec" />
+
+
 ## Model Interpretation
 - Activity distribution was visualized to understand class balance  
 - Correlation heatmaps revealed relationships between sensor features  

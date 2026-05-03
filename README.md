@@ -4,7 +4,7 @@
 | Name            | Reg No |
 | ----------------| ------ |
 | Arya Suku       | —      |
-| Arjun S         | —      |
+| Arjun S         | 253105 |
 | Ardra Selin A G | —      |
               
 

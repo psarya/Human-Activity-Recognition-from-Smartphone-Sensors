@@ -12,3 +12,5 @@
 | Accuracy         | —         | —      | 0.90     | 2947    |
 | Macro Avg        | 0.91      | 0.90   | 0.90     | 2947    |
 | Weighted Avg     | 0.90      | 0.90   | 0.90     | 2947    |
+
+### Confusion Matrix

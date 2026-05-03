@@ -13,6 +13,7 @@ Classification report:
 | Macro Avg        | 0.86      | 0.86   | 0.86     | 2947    |
 | Weighted Avg     | 0.86      | 0.86   | 0.86     | 2947    |
 
+
 Confusion Matrix
 
 | Actual \ Predicted | 0   | 1   | 2   | 3   | 4   | 5   |

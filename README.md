@@ -116,6 +116,25 @@ Models were evaluated using:
 
 ---
 
+## Model Performance Summary
+
+### Support Vector Machine (SVM)
+1.  **Accuracy:** Achieved a respectable accuracy of **90.06%**, demonstrating strong classification capabilities for the HAR dataset.
+2.  **Precision/Recall/F1-Score:** The weighted average F1-score was **0.90**, indicating a good balance between precision and recall across classes.
+3.  **Strengths:** Performed particularly well on 'LAYING' (100% precision and recall) and 'WALKING' activities, showing robustness in distinguishing these movements.
+
+### Random Forest
+1.  **Accuracy:** Had an accuracy of **85.95%**, slightly lower than SVM and LSTM but still a solid performance.
+2.  **Precision/Recall/F1-Score:** The weighted average F1-score was **0.86**, reflecting its overall classification quality.
+3.  **Strengths:** Showed high precision and recall for 'LAYING' and 'WALKING' activities. As an ensemble model, it's less prone to overfitting and provides feature importances, which can be valuable for interpretability.
+
+### Long Short-Term Memory (LSTM)
+1.  **Accuracy:** Achieved the highest accuracy among the three models at **95.15%**, highlighting its effectiveness for time-series sensor data.
+2.  **Precision/Recall/F1-Score:** The weighted average F1-score was **0.95**, demonstrating superior overall performance in correctly classifying activities.
+3.  **Strengths:** Excels in capturing temporal dependencies within the sensor data, leading to better distinction between similar activities and achieving top performance across almost all metrics. It showed excellent performance across all individual activities as well.
+
+---
+
 ## Model Interpretation
 - Activity distribution was visualized to understand class balance  
 - Correlation heatmaps revealed relationships between sensor features  

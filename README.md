@@ -26,7 +26,7 @@ STANDING
 WALKING
 WALKING_DOWNSTAIRS
 WALKING_UPSTAIRS
-Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 

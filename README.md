@@ -142,8 +142,11 @@ This project successfully developed and deployed a Human Activity Recognition sy
 
 ## Application Screenshots
 ### Home Interface
-<img width="1897" height="975" alt="Home INterface" src="https://github.com/user-attachments/assets/3ba73f5d-3a92-4dfa-89a2-49ea37fb709d" />
+<img width="1532" height="975" alt="Home INterface" src="https://github.com/user-attachments/assets/47066588-e000-4fe2-89b7-51b5f7688fda" />
 
+---
+
+### File Upload & predictions
 
 ---
 ## Deployment

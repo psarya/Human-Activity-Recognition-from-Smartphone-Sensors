@@ -1,7 +1,10 @@
 # Project Title: Human Activity Recognition System from Smartphone Sensor Data
 
-## Team Members:-
-
+## Team Members:- Name | Reg No 
+                  Arya 
+                  Arjun
+                  ardra 
+                  
 
 ## Problem Statement
 Human Activity Recognition (HAR) using smartphone sensor data is an essential predictive analytics task which provides benefits to healthcare and fitness tracking and smart environments. The sensors inside modern smartphones which include accelerometers and gyroscopes create continuous motion data through their measurement functions. This process of converting raw sensor data into accurate activity classifications presents on-going difficulties for researchers in the field.

@@ -1,5 +1,5 @@
-Random Forest 
-Classification report:
+## Random Forest 
+### Classification report:
 
 | Class / Metric   | Precision | Recall | F1-Score | Support |
 |------------------|-----------|--------|----------|---------|
@@ -14,6 +14,7 @@ Classification report:
 | Weighted Avg     | 0.86      | 0.86   | 0.86     | 2947    |
 
 
-Confusion Matrix
+### Confusion Matrix
 
+![Confusion Matrix](../../results/confusion_matrix_rf.png)
 

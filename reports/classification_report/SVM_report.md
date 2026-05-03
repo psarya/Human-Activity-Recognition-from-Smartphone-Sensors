@@ -14,3 +14,5 @@
 | Weighted Avg     | 0.90      | 0.90   | 0.90     | 2947    |
 
 ### Confusion Matrix
+<img width="579" height="526" alt="image" src="https://github.com/user-attachments/assets/b5271df5-720d-4c8d-9a4f-0795fb62cf81" />
+

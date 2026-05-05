@@ -3,9 +3,9 @@
 ## Team Members:
 | Name            | Reg No |
 | ----------------| ------ |
-| Arya Suku       | —      |
+| Arya Suku       | 253007 |
 | Arjun S         | 253105 |
-| Ardra Selin A G | —      |
+| Ardra Selin A G | 253006 |
               
 
 ## Problem Statement

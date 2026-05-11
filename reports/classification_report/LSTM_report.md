@@ -1,4 +1,4 @@
-## LSTM -Lomg Short Term Memory
+## LSTM -Long Short Term Memory
 ### Classification Report:
 | Class / Metric   | Precision | Recall | F1-Score | Support |
 | ---------------- | --------- | ------ | -------- | ------- |

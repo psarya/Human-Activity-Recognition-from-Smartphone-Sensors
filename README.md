@@ -105,10 +105,6 @@ Models were evaluated using:
 **LSTM** achieved the highest accuracy (**95.15%**) and showed balanced performance across all activity classes.
 
 ---
-## Evaluation Matrix
-### Random Forest 
-#### Classification Report
----
 
 ## Model Comparison
 <img width="743" height="434" alt="Model Comparison" src="https://github.com/user-attachments/assets/5bf9d1cf-18ff-48fb-9cbc-3eedd1ac63ec" />
